@@ -1,0 +1,127 @@
+Dưới đây là phiên bản đã được chỉnh sửa của nội dung website bạn cung cấp, với:
+
+Phông chữ mang phong cách cổ điển Nhật Bản ("Sawarabi Mincho" – phông chữ mang nét truyền thống Nhật).
+
+Tên trang bằng tiếng Nhật trong tiêu đề.
+
+Một số câu tiếng Nhật được chèn xen kẽ vào nội dung để tăng tính bản địa và thẩm mỹ.
+
+Cấu trúc HTML vẫn giữ nguyên các phần: Giới thiệu, Món ăn, Văn hóa, Thư viện, Liên hệ.
+
+Cách trình bày rõ ràng, đẹp mắt và gọn gàng.
+
+
+
+---
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Ẩm Thực Nhật Bản Thời Edo - 江戸時代の和食文化</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Sawarabi Mincho', serif;
+      background-color: #fefcf5;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #2c2c2c;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+    nav {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #5a3e36;
+      font-weight: bold;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ẩm Thực Nhật Bản Thời Edo - <span style="font-size: 1.2em;">江戸時代の和食文化</span></h1>
+    <p><em>「いただきます」– Cảm ơn vì bữa ăn tuyệt vời từ thời Edo!</em></p>
+  </header>
+
+  <nav>
+    <a href="#gioi-thieu">Giới thiệu</a>
+    <a href="#mon-an">Món Ăn</a>
+    <a href="#van-hoa">Văn Hóa</a>
+    <a href="#thu-vien">Thư Viện</a>
+    <a href="#lien-he">Liên Hệ</a>
+  </nav>
+
+  <section id="gioi-thieu">
+    <h2>Tổng quan về Ẩm thực Thời Edo</h2>
+    <p>Ẩm thực thời Edo (1603–1868) phát triển mạnh cùng với sự bùng nổ kinh tế đô thị tại Edo (nay là Tokyo). Những món ăn như <strong>sushi</strong>, <strong>tempura</strong>, hay <strong>soba</strong> ra đời trong thời kỳ này đã trở thành biểu tượng văn hóa Nhật Bản.</p>
+    <p><em>和の心 – Tinh thần Nhật Bản thể hiện qua từng món ăn.</em></p>
+  </section>
+
+  <section id="mon-an">
+    <h2>Các Món Ăn Tiêu Biểu</h2>
+    <ul>
+      <li><strong>Sushi (Edomae-zushi):</strong> Sushi sử dụng cá tươi từ vịnh Tokyo kết hợp với cơm trộn giấm. <em>「新鮮な魚で作った江戸前寿司」</em></li>
+      <li><strong>Tempura:</strong> Món chiên giòn với rau củ hoặc hải sản, du nhập từ Bồ Đào Nha nhưng đã được Nhật Bản hóa hoàn toàn. <em>サクサクで軽い天ぷら</em></li>
+      <li><strong>Soba:</strong> Mì kiều mạch dễ ăn, thanh đạm, thường được dùng theo mùa. <em>「冷たい蕎麦は夏にぴったり」</em></li>
+      <li><strong>Súp Miso:</strong> Món súp truyền thống trong mọi bữa ăn gia đình Nhật. <em>毎朝の味噌汁、心を温める</em></li>
+    </ul>
+  </section>
+
+  <section id="van-hoa">
+    <h2>Văn Hóa Ẩm Thực Edo</h2>
+    <p>Ẩm thực Edo không chỉ đơn thuần là bữa ăn, mà là sự phản ánh phong cách sống của người dân thời đó. Từ các quán ăn đường phố <em>(屋台 - Yatai)</em> đến quán nhậu <em>(居酒屋 - Izakaya)</em>, tất cả đều cho thấy sự gắn bó mật thiết giữa con người và ẩm thực.</p>
+    <p><em>季節を感じる料理 – Mỗi món ăn là một phần của tự nhiên và thời gian.</em></p>
+  </section>
+
+  <section id="thu-vien">
+    <h2>Ảnh Thư Viện</h2>
+    <div class="gallery">
+      <img src="https://example.com/sushi.jpg" alt="Sushi Edo">
+      <img src="https://example.com/tempura.jpg" alt="Tempura Edo">
+      <img src="https://example.com/soba.jpg" alt="Soba Edo">
+      <img src="https://example.com/edo-street.jpg" alt="Phố ăn uống Edo">
+    </div>
+  </section>
+
+  <section id="lien-he">
+    <h2>Liên Hệ</h2>
+    <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+    <p>Fanpage: <a href="https://facebook.com/amthucEdo" target="_blank">facebook.com/amthucEdo</a></p>
+    <p><em>ご質問がございましたら、お気軽にご連絡ください。</em></p>
+  </section>
+
+  <footer>
+    © 2025 Ẩm Thực Nhật Bản Thời Edo - 江戸の味. All rights reserved.
+  </footer>
+</body>
+</html>
